@@ -9,13 +9,9 @@ function show_magicians(magicians) {
 
 show_magicians(magicians);
 
-function make_great(magicians) {
-    for (let i = 0; i < magicians.length; i++) {
-        magicians.push('The Great' + i)
-    }
-
-    return magicians
+function make_great() {
+    magicians.splice(0, 3, "The Great Shaheen", "The Great Naseem", "The Great Haris");
 }
 
-let magician = make_great(magicians);
-console.log(typeof magician);
+make_great();
+show_magicians(magicians);
