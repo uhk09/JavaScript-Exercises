@@ -26,7 +26,7 @@ for (let i = 0; i < dinnerInvitationList.length; i++) {
 
 console.log("Due to some reasons now only 2 peples are invited");
 
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < (dinnerInvitationList.length - 2); i++) {
     console.log(dinnerInvitationList[i] + " due to some reason you are drop from dinner.");
 
 }
